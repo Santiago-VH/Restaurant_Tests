@@ -21,4 +21,7 @@ public class Ingredient {
 		weight = weight + additionalW;
 	}
 	
+	public void removeWeight(double inputWeight) {
+		weight = weight - inputWeight;
+	}
 }
